@@ -1,0 +1,97 @@
+/* General styles */
+body {
+    background-color: #f0f4f8;
+    /* Un gris muy claro con tono azulado */
+    font-family: 'Arial', sans-serif;
+}
+
+h2,
+h5 {
+    color: #3a3a3a;
+    /* Texto en gris oscuro suave */
+}
+
+/* Header styles */
+.container-fluid {
+    background-color: #99E6D8;
+    /* Verde azulado pastel */
+    padding: 15px;
+    color: white;
+}
+
+.container-fluid h5 {
+    margin: 0;
+}
+
+.container-fluid .col a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+}
+
+.container-fluid .col a:hover {
+    text-decoration: underline;
+}
+
+/* Form styles */
+.container {
+    max-width: 400px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    /* Bordes más suaves */
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.05);
+    /* Sombra suave */
+}
+
+label {
+    color: #3a3a3a;
+}
+
+input.form-control {
+    border-radius: 8px;
+    /* Bordes suaves en los inputs */
+    border: 1px solid #ced4da;
+    /* Borde gris claro */
+    padding: 10px;
+}
+
+/* Botón de inicio de sesión y registro */
+.btn-primary {
+    background-color: #99E6D8;
+    /* Verde-azulado pastel */
+    border-color: #99E6D8;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 8px;
+}
+
+.btn-primary:hover {
+    background-color: #99E6D8;
+    /* Mismo tono para consistencia */
+    border-color: #99E6D8;
+}
+
+/* Botón de eliminar */
+.btn-danger {
+    background-color: #ff4d4d;
+    /* Rojo claro */
+    border-color: #ff4d4d;
+}
+
+.btn-danger:hover {
+    background-color: #e60000;
+    /* Rojo más oscuro al pasar el cursor */
+}
+
+/* Footer links */
+p a {
+    color: #99E6D8;
+    /* Verde-azulado pastel en enlaces */
+    text-decoration: none;
+}
+
+p a:hover {
+    text-decoration: underline;
+}
